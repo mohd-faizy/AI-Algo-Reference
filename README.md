@@ -67,37 +67,6 @@ uv add ipykernel
 
 *Note: PyTorch is used for deep learning scripts. If XGBoost is unavailable on your system, the `04_xgboost.py` script automatically falls back to scikit-learn's standard `GradientBoostingClassifier`.*
 
----
-
-## 🚀 Usage & Execution
-
-Run any algorithm script from the root of the repository:
-
-```bash
-python 01_linear_regression.py
-python 18_deep_q_network.py
-python 25_transformer.py
-```
-
-### Batch Execution (Run All Algorithms)
-
-To execute all 30 scripts in sequence and populate your `outputs/` folder, run:
-
-#### On Windows (PowerShell):
-```powershell
-Get-ChildItem [0-9]*.py | ForEach-Object { 
-    Write-Host "Running $_..." -ForegroundColor Green
-    python $_.FullName 
-}
-```
-
-#### On macOS / Linux (Bash):
-```bash
-for f in [0-9]*.py; do
-    echo "Running $f..."
-    python "$f"
-done
-```
 
 ---
 
@@ -137,3 +106,24 @@ done
 | **30** | **Evolutionary Algos** | Genetic Algorithm | [`30_genetic_algorithms.py`](30_genetic_algorithms.py) | `numpy` | Population optimization using selection, crossover, and mutation. |
 
 
+---
+
+## Contributing and Support
+
+Contributions are welcome. Please open an issue before submitting major changes.
+
+If this repository helps you, consider giving it a star so other learners can discover it.
+
+<div align="center">
+  <br/>
+  <p><b>Connect with me</b></p>
+  <a href="https://twitter.com/F4izy">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://www.linkedin.com/in/mohd-faizy/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/mohd-faizy">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</div>
