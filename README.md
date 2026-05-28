@@ -1,4 +1,4 @@
-# 🚀 30 AI & Machine Learning Algorithms in Python
+# 30 AI & Machine Learning Algorithms in Python
 
 A collection of **30 core Machine Learning, Deep Learning, and Reinforcement Learning algorithms** implemented as standalone Python scripts. 
 
