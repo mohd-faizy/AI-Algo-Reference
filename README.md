@@ -1,8 +1,8 @@
 # 🚀 30 AI & Machine Learning Algorithms in Python
 
-A beautifully curated, zero-boilerplate repository containing **30 core Machine Learning, Deep Learning, and Reinforcement Learning algorithms** implemented in standalone Python scripts. 
+A collection of **30 core Machine Learning, Deep Learning, and Reinforcement Learning algorithms** implemented as standalone Python scripts. 
 
-Each script is completely self-contained, loads a standard/synthetic dataset, trains the model, outputs performance metrics, and saves a high-quality visualization to the `outputs/` directory.
+Each script is self-contained, loads a dataset, trains the model, prints performance metrics, and saves a visualization plot to the `outputs/` directory.
 
 ---
 
