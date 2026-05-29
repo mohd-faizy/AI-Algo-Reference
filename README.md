@@ -1,8 +1,20 @@
 # 🧠 30 AI & Machine Learning Algorithms in Python
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Tech Stack](https://img.shields.io/badge/Stack-Python%20%7C%20PyTorch%20%7C%20Scikit--Learn-teal?style=for-the-badge)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-emerald.svg?style=for-the-badge)](https://github.com/mohd-faizy/AI-Algo-Reference)
+<div align="center">
+
+[![Python Version](https://img.shields.io/badge/Python-3.13+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Environment: uv](https://img.shields.io/badge/Environment-uv-F96740?style=for-the-badge&logo=lightning&logoColor=white)](https://github.com/astral-sh/uv)
+[![License: MIT](https://img.shields.io/badge/License-MIT-4B5563?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+[![GitHub Stars](https://img.shields.io/github/stars/mohd-faizy/AI-Algo-Reference?style=for-the-badge&logo=github&color=D97706)](https://github.com/mohd-faizy/AI-Algo-Reference/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mohd-faizy/AI-Algo-Reference?style=for-the-badge&logo=github&color=2563EB)](https://github.com/mohd-faizy/AI-Algo-Reference/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/mohd-faizy/AI-Algo-Reference?style=for-the-badge&logo=github&color=DC2626)](https://github.com/mohd-faizy/AI-Algo-Reference/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-059669?style=for-the-badge)](https://makeapullrequest.com)
+
+</div>
+
 
 A collection of **30 core Machine Learning, Deep Learning, and Reinforcement Learning algorithms** implemented as standalone Python scripts.
 
