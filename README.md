@@ -1,6 +1,10 @@
-# 30 AI & Machine Learning Algorithms in Python
+# 🧠 30 AI & Machine Learning Algorithms in Python
 
-A collection of **30 core Machine Learning, Deep Learning, and Reinforcement Learning algorithms** implemented as standalone Python scripts. 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Tech Stack](https://img.shields.io/badge/Stack-Python%20%7C%20PyTorch%20%7C%20Scikit--Learn-teal?style=for-the-badge)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-emerald.svg?style=for-the-badge)](https://github.com/mohd-faizy/AI-Algo-Reference)
+
+A collection of **30 core Machine Learning, Deep Learning, and Reinforcement Learning algorithms** implemented as standalone Python scripts.
 
 Each script is self-contained, loads a dataset, trains the model, prints performance metrics, and saves a visualization plot to the `outputs/` directory.
 
@@ -70,10 +74,10 @@ uv add ipykernel
 
 ---
 
-## 🗺️ Index of Algorithms
+## Index of Algorithms
 
 | # | Category | Algorithm | Script | Key Libraries | Description |
-|---|---|---|---|---|---|
+| :---: | :--- | :--- | :--- | :--- | :--- |
 | **01** | **Regression** | Linear Regression | [`01_linear_regression.py`](01_linear_regression.py) | `scikit-learn` | Fits continuous values based on features (Diabetes dataset). |
 | **02** | **Regression** | Logistic Regression | [`02_logistic_regression.py`](02_logistic_regression.py) | `scikit-learn` | Models binary classification boundaries using sigmoid activations. |
 | **03** | **Trees & Ensembles** | Decision Tree | [`03_decision_tree.py`](03_decision_tree.py) | `scikit-learn` | Builds tree-structured classifiers recursively partitioning features. |
@@ -89,11 +93,11 @@ uv add ipykernel
 | **13** | **Dimension Reduction** | PCA | [`13_principal_component_analysis.py`](13_principal_component_analysis.py) | `scikit-learn` | Orthogonal projection reducing dimensions to maximize variance. |
 | **14** | **Clustering** | DBSCAN | [`14_dbscan.py`](14_dbscan.py) | `scikit-learn` | Density-based grouping highlighting cluster structures of arbitrary shapes. |
 | **15** | **Dimension Reduction** | t-SNE | [`15_t_sne.py`](15_t_sne.py) | `scikit-learn` | Manifold projection mapping high-dim distributions to 2D space. |
-| **16** | **Reinforcement Learning**| Tabular Q-Learning | [`16_q_learning.py`](16_q_learning.py) | `numpy` | Model-free off-policy value iteration in gridworld environments. |
-| **17** | **Reinforcement Learning**| SARSA | [`17_sarsa.py`](17_sarsa.py) | `numpy` | Model-free on-policy control updates following selected actions. |
-| **18** | **Reinforcement Learning**| Deep Q-Network (DQN) | [`18_deep_q_network.py`](18_deep_q_network.py) | `pytorch` | Uses deep networks to approximate value estimates with experience replay. |
-| **19** | **Reinforcement Learning**| Policy Gradient | [`19_policy_gradient.py`](19_policy_gradient.py) | `pytorch` | Directly optimizes actions via probability weights (REINFORCE). |
-| **20** | **Reinforcement Learning**| Actor-Critic | [`20_actor_critic.py`](20_actor_critic.py) | `pytorch` | Combines value function critics with direct policy actor updates. |
+| **16** | **Reinforcement Learning** | Tabular Q-Learning | [`16_q_learning.py`](16_q_learning.py) | `numpy` | Model-free off-policy value iteration in gridworld environments. |
+| **17** | **Reinforcement Learning** | SARSA | [`17_sarsa.py`](17_sarsa.py) | `numpy` | Model-free on-policy control updates following selected actions. |
+| **18** | **Reinforcement Learning** | Deep Q-Network (DQN) | [`18_deep_q_network.py`](18_deep_q_network.py) | `pytorch` | Uses deep networks to approximate value estimates with experience replay. |
+| **19** | **Reinforcement Learning** | Policy Gradient | [`19_policy_gradient.py`](19_policy_gradient.py) | `pytorch` | Directly optimizes actions via probability weights (REINFORCE). |
+| **20** | **Reinforcement Learning** | Actor-Critic | [`20_actor_critic.py`](20_actor_critic.py) | `pytorch` | Combines value function critics with direct policy actor updates. |
 | **21** | **Deep Learning** | ANN | [`21_artificial_neural_network.py`](21_artificial_neural_network.py) | `pytorch` | Fully-connected multi-layer feedforward neural network classifier. |
 | **22** | **Deep Learning** | CNN | [`22_convolutional_neural_network.py`](22_convolutional_neural_network.py) | `pytorch` | Spatial grid feature extraction using 2D convolutional filters. |
 | **23** | **Deep Learning** | RNN | [`23_recurrent_neural_network.py`](23_recurrent_neural_network.py) | `pytorch` | Processes sequential time series with recurrent state feedback. |
@@ -102,7 +106,7 @@ uv add ipykernel
 | **26** | **Clustering** | K-Means++ | [`26_k_means_plus_plus.py`](26_k_means_plus_plus.py) | `scikit-learn` | Smarter initialization choosing distant starting centroids. |
 | **27** | **Deep Learning** | Autoencoder | [`27_autoencoders.py`](27_autoencoders.py) | `pytorch` | Unsupervised dimensionality reduction by learning encoding/decoding loops. |
 | **28** | **Anomaly Detection** | Isolation Forest | [`28_isolation_forest.py`](28_isolation_forest.py) | `scikit-learn` | Isolates anomalous observations using recursive random partitions. |
-| **29** | **Reinforcement Learning**| MDP | [`29_markov_decision_process.py`](29_markov_decision_process.py) | `numpy` | Solves grid environments using value iteration equations. |
+| **29** | **Reinforcement Learning** | MDP | [`29_markov_decision_process.py`](29_markov_decision_process.py) | `numpy` | Solves grid environments using value iteration equations. |
 | **30** | **Evolutionary Algos** | Genetic Algorithm | [`30_genetic_algorithms.py`](30_genetic_algorithms.py) | `numpy` | Population optimization using selection, crossover, and mutation. |
 
 
@@ -142,13 +146,15 @@ If this repository helps you, consider giving it a star so other learners can di
 <div align="center">
   <br/>
   <p><b>Connect with me</b></p>
-  <a href="https://twitter.com/F4izy">
+  <a href="https://twitter.com/F4izy" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
-  <a href="https://www.linkedin.com/in/mohd-faizy/">
+  <a href="https://www.linkedin.com/in/mohd-faizy/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://github.com/mohd-faizy">
+  <a href="https://github.com/mohd-faizy" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <br/><br/>
+  <p><i>Created by <b><a href="https://github.com/mohd-faizy">Mohd Faizy</a></b></i></p>
 </div>
